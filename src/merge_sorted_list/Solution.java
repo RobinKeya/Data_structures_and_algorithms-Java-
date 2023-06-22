@@ -1,5 +1,7 @@
 package merge_sorted_list;
 
+import common.ListNode;
+
 public class Solution {
     private ListNode mergeList(ListNode l1, ListNode l2){
         ListNode dummyList = new ListNode(0);
