@@ -20,7 +20,12 @@ public class TripleSteps {
         return memo[i];
     }
     public static void main(String[]args){
-        System.out.println(countWays(7));
-        System.out.println(countWaysMemo(7));
+        //System.out.println(countWays(7));
+        long t = System.nanoTime();
+        //System.out.println(countWaysMemo(7));
+        System.out.println("Hello");
+        long tm = System.nanoTime();
+        System.out.println(tm-t);
+
     }
 }
